@@ -3,18 +3,42 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon --quite",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@shopify/polaris": "^6.6.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.0.2",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0",
+    "mobx-state-tree": "^5.0.2",
+    "mongoose": "^5.13.3",
     "next": "11.0.1",
     "react": "17.0.2",
+    "react-bootstrap": "^2.0.0-beta.4",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.2",
+    "@types/koa-cors": "0.0.2",
+    "@types/koa-router": "^7.4.4",
+    "@types/react": "^17.0.15",
+    "dotenv": "^10.0.0",
     "eslint": "7.31.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "koa-cors": "0.0.16",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5",
+    "uuid": "^8.3.2"
   }
 }
